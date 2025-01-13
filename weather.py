@@ -95,7 +95,7 @@ def get_weather():
             #print (f"Feels like {daily_feels_morning}")
             print (f"Evening: {daily_temp_eve}°C >>> Feels like {daily_feels_eve}°C", file=file)
             #print (f"Feels like {daily_feels_eve}")
-            print (f"Relative Humidity: {daily_relative}", file=file)
+            print (f"Relative Humidity: {daily_relative}%", file=file)
             print (f"Dew Point: {daily_dew}", file=file)
             print (f"Clouds: {daily_clouds}%", file=file)
             print (f"Wind Speed: {daily_wind} km/h", file=file)
